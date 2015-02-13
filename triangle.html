@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tryangles</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><small>What kind of triangle do we have here?</small></h1>
+      <div class="form">
+        <form id="triangle-ep">
+          <div class="form-group">
+            <label for="a">A:</label>
+            <input id="a" type="text" placeholder="side 1"class="form-control"required>
+            <label for="b">B:</label>
+            <input id="b" type="text" placeholder="side 2"class="form-control"required>
+            <label for="c">C:</label>
+            <input id="c" type="text" placeholder="side 3"class="form-control"required>
+          </div>
+          <button type="submit" class="btn btn-success">Let's see...</button>
+        </form>
+      </div>
+      <div id="result">
+        <p><p>Your triangle: </p> <span class="triangle"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
