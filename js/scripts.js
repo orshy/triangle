@@ -5,5 +5,6 @@ var triangle = function( a, b, c ) {
     return "Equilateral"
   } else if ((a !== b) && (b !== c)) {
     return "Scalene"
-  };
+  } else
+  return "Isosceles"
 };

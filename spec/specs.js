@@ -10,4 +10,7 @@ describe('triangle', function() {
   it("will return Scalene if no sides equal", function (){
     expect(triangle(4,5,6)).to.equal("Scalene");
   })
+  it("will return Isosceles if two sides are equal", function (){
+    expect(triangle(4,4,2)).to.equal("Isosceles");
+  })
 });
